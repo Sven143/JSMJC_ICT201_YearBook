@@ -1,0 +1,383 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: arial;
+    background-color: white;
+  }
+  html{
+      scroll-behavior: smooth;
+      scroll-snap-type: y proximity;
+  }
+  body{
+      animation: transitionIn 0.75s;
+      overflow-x: hidden;
+      box-shadow: 0 0 20px 5px #219245;
+  }
+  
+  @keyframes transitionIn{
+      from{
+          opacity: 0;
+          transform: translateY(-10px);
+      }
+      to{
+          opacitity: 1;
+          transform: translateY(0);
+      }
+  }
+  nav{
+      display: flex;
+      position: fixed;
+      align-items: center;
+      width: 100%;
+      height: 80px;
+      padding: 10px 60px;
+      box-sizing: border-box;
+      background: rgb(255, 255, 255);
+      transition: 0.2s;
+      user-select: none;
+  }
+  nav a{
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      font-size: 24px;
+      color:#219245;
+      padding: 0;
+      text-decoration: none;
+  }
+  nav h2{
+      padding-bottom: 7px;
+  }
+  nav h2:hover{
+      color:#219245;
+      transition: .4s;
+  }
+  
+  nav ul{
+      list-style: none;
+      width: 100%;
+      padding: 0;
+      text-align: center;
+  }
+  nav ul li{
+      font-family: 'Poppins', sans-serif;
+      display: inline-block;
+      color:#219245;
+  }
+  nav ul li{
+      color:#219245;
+      padding: 12px 30px;
+      text-decoration: none;
+      font-size: 24px;
+      font-weight: bold;
+      text-align: center;
+  }
+  .btn button{
+      font-family: 'Poppins', sans-serif;
+      color: white;
+      font-size: 15px;
+      font-weight: bold;
+      text-decoration: none;
+      float: right;
+      background-color: #219245;
+      border: none;
+      padding: 10px 17px;
+      cursor: pointer;
+      user-select: none;
+      transition: .4s;
+  }
+  .btn button:hover{
+      box-shadow: 0 0 20px 5px #219245;
+      transition: .4s;
+  }
+  .home{
+      width: 100%;
+      height: 100vh;
+      background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)), url(img/bg5.jpg);
+      background-size: cover;
+      background-position: center;
+      border-bottom: 8px solid #219245;
+  }
+  .homepage{
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      padding-top: 65px;
+      text-align: center;
+      user-select: none;
+  }
+  .jsmjc{
+      height: 160px;
+      width: auto;
+      float: left;
+      padding: 130px 150px 130px 100px;
+  }
+  .shs{
+      height: 160px;
+      width: auto;
+      float: right;
+      padding: 130px 150px 130px 100px;
+  }
+
+  .homepage p{
+      color: white;
+  }
+
+  .homepage a{
+      text-decoration: none;
+  }
+  .homepage h1{
+    color: white;
+    font-size: 110px;
+    margin-bottom: 0;
+    word-spacing: 50px;
+    -webkit-text-stroke: 3px;
+    -webkit-text-stroke-color: #219245;
+    letter-spacing: 5px;
+}
+.homepage h2{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-size: 25px;
+    margin-top: 15px;
+    -webkit-text-stroke: 1.5px;
+    -webkit-text-stroke-color: #219245;
+}
+.homepage h3{
+    color: white;
+    font-size: 35px;
+    font-weight: 900;
+    -webkit-text-stroke: 2px;
+    -webkit-text-stroke-color: #219245;
+}
+.homepage h4{
+    color: white;
+    font-size: 23px;
+    -webkit-text-stroke: 1.5px;
+    -webkit-text-stroke-color: #219245;
+}
+.homepage h5{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-size: 20px;
+    margin-top: 50px;
+    -webkit-text-stroke: .8px;
+    -webkit-text-stroke-color: #219245;
+}
+
+  .get{
+    font-family: 'Poppins', sans-serif; 
+    background-color: #219245;
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    border: 3px solid white;
+    padding: 7px 25px;
+    margin-top: 25px;
+    cursor: pointer;
+    user-select: none;
+    transition: .4s;
+  }
+  
+  .get:hover{
+    box-shadow: 0 0 20px 5px #219245;
+    background-color: white;
+    color: #219245;
+    border: 3px solid #219245;
+    transform: scale(1.1);
+    z-index: 2;
+  }
+  .pictures{
+      width: 100%;
+      height: 100vh;
+      background-color: white;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  .adviser{
+      text-align: center;
+      user-select: none;
+  }
+  
+  .adviser img{
+      height: 260px;
+      width: auto;
+      margin-top: 180px;
+      box-shadow: 0 0 20px 10px #219245;
+      transition: .4s;
+  }
+  .adviser img:hover{
+      box-shadow: 0 0 20px 20px #219245;
+      transition: .4s;
+  
+  }
+  .ads{
+      text-align: center;
+  }
+  .small{
+      font-size: 21px;
+      font-weight: 800;
+  }
+  .whole{
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      margin: 40px 60px 0;
+  }
+  
+  .ict{
+      font-size: 30px;
+      text-align: center;
+      padding: 10px;
+      margin: 100px 0 40px;
+      color:#219245;
+      border-bottom: 2px solid #219245;
+  }
+  .class{
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      text-align: center;
+      float: left;
+      width: 20%;
+      user-select: none;
+      transition: .4s;
+  }
+  .class img{
+      height: 180px;
+      width: auto;
+      box-shadow: 0 0 20px 5px #219245;
+      margin: 100px 15px 0;
+      user-select: none;
+  }
+  .class:hover{
+      transform: scale(1.2);
+      z-index: 2;
+  }
+  .class h3{
+      font-weight: 700;
+  }
+  a .class{
+      color: black;
+      text-decoration: none;
+  }
+  .classes{
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      text-align: center;
+      float: left;
+      width: 20%;
+      transition: .4s;
+  }
+  .classes img{
+      height: 180px;
+      width: auto;
+      box-shadow: 0 0 20px 5px #219245;
+      margin: 65px 15px 0;
+  }
+  .classes:hover{
+      transform: scale(1.2);
+      z-index: 2;
+  }
+  .classes h3{
+      font-weight: 700;
+      margin-bottom: 170px;
+  }
+  a .classes{
+      color: black;
+      text-decoration: none;
+  }
+  .motto{
+      margin-top: 10px;
+      font-size: 15px;
+      font-weight: 400;
+  }
+  .whole2{
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      margin: 40px 60px 0;
+  }
+  
+  .ict2{
+      font-size: 20px;
+      text-align: center;
+      padding: 10px 0;
+      margin: 100px 0 40px;
+      color:#219245;
+      border-bottom: 2px solid #219245;
+  
+  }
+  .class2{
+      font-family: 'Poppins', sans-serif;
+      text-align: center;
+      float: left;
+      width: 33.33%;
+      user-select: none;
+      transition: .4s;
+  }
+  .class2 a{
+      color: #219245;
+      text-decoration: none;
+  }
+  .class2 img{
+      height: 180px;
+      width: auto;
+      box-shadow: 0 0 20px 5px #219245;
+      margin: 100px 15px 0;
+  }
+  .class2:hover{
+      box-shadow: 0 0 20px 5px #219245;
+      transform: scale(1.2);
+      z-index: 2;
+  }
+  .class2 h3{
+      font-weight: 700;
+  }
+  .motto2{
+      margin-top: 10px;
+      font-size: 15px;
+      font-weight: 400;
+  }
+  .subject{
+      min-height: 40vh;
+      width: 100%;
+  }
+  
+  .footer-copyright{
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      display: block;
+      top: 0;
+      left: 0;
+      width: 100%;
+      padding: 8px 0;
+      text-align: center;
+      background-color: black;
+      box-shadow: 0 0 20px 5px #219245;
+  }
+  .socials{
+      display: flex;
+      align-items: center;
+      margin-right: 50px;
+      justify-content: center;
+      list-style: none;
+  }
+  .socials li{
+      margin: 15px 15px 0;
+  }
+  .socials a{
+      color: #219245;
+  }
+  .socials a i{
+      font-size: 25px;
+      transition: color .2s ease;
+  }
+  .socials a:hover{
+      color:#219245;
+      filter: drop-shadow(0 0 10px #219245);
+  }
+  .this{
+      color: white;
+      font-size: 17px;
+      line-height: 25px;
+  }
+  .footer-copyright p{
+      color: #219245;
+      font-size: 13px;
+      padding-top: 20px;
+      word-spacing: 2px;
+      font-weight: bold;
+  }
+  .footer-copyright .argel{
+      color:white;
+  }

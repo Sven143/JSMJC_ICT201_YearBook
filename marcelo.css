@@ -1,0 +1,260 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    animation: transitionIn 0.75s;
+}
+
+@keyframes transitionIn{
+    from{
+        opacity: 0;
+        transform: rotateX(-10deg);
+    }
+    to{
+        opacitity: 1;
+        transform: rotateX(0);
+    }
+}
+
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    overflow-x: hidden;
+}
+
+.btn button{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    border: none;
+    font-size: 20px;
+    margin: 23px 60px 0 0;
+    float: right;
+    padding: 5px 25px;
+    font-weight: bold;
+    background-color: #219245;
+    cursor: pointer;
+    transition: .4s;
+}
+
+.btn button:hover{
+    box-shadow: 0 0 20px 5px #219245;
+    transition: .4s;
+}
+
+section{
+    min-height: 100vh;
+    width: 100%;
+    background-color: white;
+    background: white;
+    background-size: cover;
+    background-position: center;
+}
+
+section img{
+    box-shadow: 0 0 20px 5px #219245;
+    width: auto;
+    height: 190px;
+    float: left;
+    margin: 50px 40px 0 50px;
+}
+
+.name{
+    font-size: 25px;
+    padding: 70px 0 40px;
+    line-height: 40px;
+    color: #219245;
+}
+
+.weight{
+    font-size: 30px;
+    font-weight: 500;  
+}
+
+.weight a{
+    color:#219245;
+    text-decoration: underline;
+}
+
+.bday{
+    color: #219245;
+    margin-top: 30px;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+p{
+    color: #219245;
+    text-align: left;
+    margin: 0 50px 20px;
+    padding: 10px 0 20px 20px;
+    border: solid;
+    border-radius: 15px;
+    border: 3px solid #219245;
+    font-weight: bold;
+}
+
+.the{
+    padding-left: 8px; 
+    font-size: 14.5px;
+}
+
+.interest{
+    position: relative;
+    right: 2px;
+    float: left;
+    color: #219245;
+    padding: 18px 60px;   
+}
+
+.inter{
+    padding-bottom: 25px;
+}
+
+.video button{
+    color: white;
+    position: relative;
+    top: 78px;
+    right: 235px;
+    font-size: 18px;
+    padding: 4px 38px;
+    background-color: #219245;
+    border: 3px solid #219245;
+    border-radius: 7px;
+    margin: 5px 0 5px 50px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.video button:hover{
+    box-shadow: 0 0 20px 5px #219245;
+    transform: scale(1.2);
+    z-index: 2;
+}
+
+.games button{
+    color: white;
+    position: relative;
+    top: 78px;
+    right: 235px;
+    font-size: 18px;
+    padding: 4px 106px;
+    background-color: #219245;
+    border: 3px solid #219245;
+    border-radius: 7px;
+    margin: 5px 0 5px 50px;
+    font-weight: bold;
+    cursor: pointer;   
+}
+
+.games button:hover{
+    box-shadow: 0 0 20px 5px #219245;
+    transform: scale(1.2);
+    z-index: 2;
+}
+
+.hob button{
+    color: white;
+    position: relative;
+    top: 78px;
+    right: -30px;
+    font-size: 18px;
+    padding: 4px 60px;
+    background-color: #219245;
+    border: 3px solid #219245;
+    border-radius: 7px;
+    margin: 5px 0 5px 50px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.hob button:hover{
+    box-shadow: 0 0 20px 5px #219245;
+    transform: scale(1.2);
+    z-index: 2;
+}
+
+.music{
+    position: relative;
+    bottom: 155px;
+    left: 600px;
+    color: #219245;
+    padding: 18px 250px;
+}
+
+.mus{
+    padding-bottom: 25px;
+}
+
+.video2 button{
+    color: white;
+    position: relative;
+    bottom: 170px;
+    left: 850px;
+    font-size: 18px;
+    padding: 4px 91px;
+    background-color: #219245;
+    border: 3px solid #219245;
+    border-radius: 7px;
+    margin: 5px 0 5px 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.video2 button:hover{
+    box-shadow: 0 0 20px 5px #219245;
+    transform: scale(1.2);
+    z-index: 2;
+}
+
+.games2 button{
+    color: white;
+    position: relative;
+    bottom: 170px;
+    left: 850px;
+    font-size: 18px;
+    padding: 4px 67px;
+    background-color: #219245;
+    border: 3px solid #219245;
+    border-radius: 7px;
+    margin: 5px 0 5px 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.games2 button:hover{
+    box-shadow: 0 0 20px 5px #219245;
+    transform: scale(1.2);
+    z-index: 2;
+}
+
+.hob2 button{
+    color: white;
+    position: relative;
+    bottom: 170px;
+    left: 850px;
+    font-size: 18px;
+    padding: 4px 96px;
+    background-color: #219245;
+    border: 3px solid #219245;
+    border-radius: 7px;
+    margin: 5px 0 5px 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.hob2 button:hover{
+    box-shadow: 0 0 20px 5px #219245;
+    transform: scale(1.2);
+    z-index: 2;
+}
